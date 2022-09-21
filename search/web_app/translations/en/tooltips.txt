@@ -1,0 +1,19 @@
+Plural	Plural
+Male	Male
+Female	Female
+Neutral	Neutral
+Infinitive	Infinitive
+Masdar	Masdar
+Imperative	Imperative
+Plural imperative	Plural imperative
+Aorist	Aorist
+Present	Present
+Causative	Causative
+Converb	Converb
+Ergative case	Ergative case
+Genitive case	Genitive case
+Dative case	Dative case
+Comitative case	Comitative case
+Locative case	Locative case
+Elative case	Elative case
+Attributivizer	Attributivizer
