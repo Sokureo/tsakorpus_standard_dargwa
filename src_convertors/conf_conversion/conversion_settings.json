@@ -11,7 +11,7 @@
   "meta_files_case_sensitive": true,
   "languages": ["english"],
   "language_codes": {"ru": "russian", "dar": "dargwa"},
-  "json_indent": -1,
+  "json_indent": 1,
   "gzip": false,
   "convert_quotes": true,
   "left_quot_mark": "«",

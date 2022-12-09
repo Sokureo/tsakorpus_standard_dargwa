@@ -1,10 +1,11 @@
 {
   "corpus_name": "standard_dargwa",
+  "start_page_url": "http://lingconlab.ru/standard_dargwa/",
   "citation": "",
   "input_format": "json",
   "debug": false,
-  "media": true,
-  "video": true,
+  "media": false,
+  "video": false,
   "media_length": 60,
   "max_context_expand": 10,
   "max_distance_filter": 200000,
@@ -44,7 +45,6 @@
     "ru"
   ],
   "default_view": "glossed",
-  "media": false,
   "all_language_search_enabled": false,
   "gloss_search_enabled": true,
   "ambiguous_analyses": true,
