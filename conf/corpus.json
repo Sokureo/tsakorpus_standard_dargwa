@@ -25,8 +25,7 @@
   },
   "word_fields":
   [
-    "trans_ru",
-    "trans_en"
+    "trans_ru"
   ],
   "default_values": {},
   "sentence_meta_values": {
