@@ -14,6 +14,12 @@
   "query_timeout": 60,
   "year_sort_enabled": true,
   "viewable_meta": [
+    "file_id",
+    "filename",
+    "issue",
+    "title",
+    "author",
+    "genre"
   ],
   "sentence_meta": [
   ],
@@ -62,8 +68,8 @@
         "columns": [
           [            
             {"type": "gloss", "value": "PL", "tooltip": "Plural"},
-            {"type": "gloss", "value": "M", "tooltip": "Male"},
-            {"type": "gloss", "value": "F", "tooltip": "Female"},
+            {"type": "gloss", "value": "M", "tooltip": "Masculine"},
+            {"type": "gloss", "value": "F", "tooltip": "Feminine"},
             {"type": "gloss", "value": "N", "tooltip": "Neutral"},
             {"type": "gloss", "value": "NPL", "tooltip": ""},
             {"type": "gloss", "value": "HPL", "tooltip": ""},
@@ -82,32 +88,31 @@
             {"type": "gloss", "value": "HYP3", "tooltip": ""},
             {"type": "gloss", "value": "CAUS", "tooltip": "Causative"},
             {"type": "gloss", "value": "PRT", "tooltip": ""},
-            {"type": "gloss", "value": "CVB", "tooltip": "Converb"}
+            {"type": "gloss", "value": "CVB", "tooltip": "Converb"},
+            {"type": "gloss", "value": "COND", "tooltip": ""},
+            {"type": "gloss", "value": "COND.ST", "tooltip": ""},
+            {"type": "gloss", "value": "HAB", "tooltip": ""},
+            {"type": "gloss", "value": "HAB.ST", "tooltip": ""}
           ],
           [
+            {"type": "gloss", "value": "TH", "tooltip": ""},
+            {"type": "gloss", "value": "OPT", "tooltip": ""},
+            {"type": "gloss", "value": "COMP", "tooltip": ""},
             {"type": "gloss", "value": "WHEN", "tooltip": ""},
             {"type": "gloss", "value": "BY.THE.TIME", "tooltip": ""},
             {"type": "gloss", "value": "AS.SOON.AS", "tooltip": ""},
             {"type": "gloss", "value": "CONC", "tooltip": ""},
-            {"type": "gloss", "value": "ALTHOUGH", "tooltip": ""},
-            {"type": "gloss", "value": "1SG&2SG&2PL(itr)/3tr", "tooltip": ""},
-            {"type": "gloss", "value": "1SG&2SG&2PL(tr)", "tooltip": ""}
+            {"type": "gloss", "value": "ALTHOUGH", "tooltip": ""}
           ],
           [
             {"type": "gloss", "value": "1PL", "tooltip": ""},
-            {"type": "gloss", "value": "3itr", "tooltip": ""},
             {"type": "gloss", "value": "1SG", "tooltip": ""},
             {"type": "gloss", "value": "2SG", "tooltip": ""},
-            {"type": "gloss", "value": "2PL", "tooltip": ""},
-            {"type": "gloss", "value": "1SG&2SG", "tooltip": ""},
-            {"type": "gloss", "value": "1PL&2PL&3", "tooltip": ""}
+            {"type": "gloss", "value": "2PL", "tooltip": ""}
           ],  
           [
-            {"type": "gloss", "value": "1SG&2SG&3", "tooltip": ""},
-            {"type": "gloss", "value": "1PL&2PL", "tooltip": ""},
             {"type": "gloss", "value": "ADD", "tooltip": ""},
             {"type": "gloss", "value": "PST", "tooltip": ""},
-            {"type": "gloss", "value": "SG", "tooltip": ""},
             {"type": "gloss", "value": "OBL", "tooltip": ""},
             {"type": "gloss", "value": "OBL.PL", "tooltip": ""},
             {"type": "gloss", "value": "ERG", "tooltip": "Ergative case"}
@@ -132,7 +137,9 @@
             {"type": "gloss", "value": "EL.thither", "tooltip": ""},
             {"type": "gloss", "value": "DIR", "tooltip": ""},
             {"type": "gloss", "value": "1/2PL", "tooltip": ""},
-            {"type": "gloss", "value": "ATTR", "tooltip": "Attributivizer"}
+            {"type": "gloss", "value": "ATTR", "tooltip": "Attributivizer"},
+            {"type": "gloss", "value": "ATTR.PL", "tooltip": "Attributivizer"},
+            {"type": "gloss", "value": "NEG.COP.ATTR", "tooltip": ""}
           ]
         ]
       },

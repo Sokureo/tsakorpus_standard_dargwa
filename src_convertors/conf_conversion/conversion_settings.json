@@ -5,11 +5,17 @@
   "error_log": "error.log",
   "meta_fields":
   [
+    "file_id",
+    "filename",
+    "issue",
+    "title",
+    "author",
+    "genre"
   ],
   "meta_files_ext": false,
-  "meta_files_dir": true,
+  "meta_files_dir": false,
   "meta_files_case_sensitive": true,
-  "languages": ["english"],
+  "languages": ["dargwa", "russian"],
   "language_codes": {"ru": "russian", "dar": "dargwa"},
   "json_indent": 1,
   "gzip": false,
