@@ -25,8 +25,16 @@
   ],
   "search_meta": {
     "columns": [
+      {"type": "input_text", "name": "title", "placeholder": "Title"},
+      {"type": "input_text", "name": "author", "placeholder": "Author"},
+      {"type": "separator"},
+      {"type": "input_text", "name": "genre", "placeholder": "Genre"},
+      {"type": "input_text", "name": "issue", "placeholder": "Issue"}
     ],
     "stat_options": [
+      "issue",
+      "author",
+      "genre"
     ]
   },
   "word_fields":
