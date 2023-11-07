@@ -20,6 +20,10 @@ python analyze_dargwa_wordlist.py
 # mv analyzed.txt ../dar_wordlist.csv-parsed.txt
 # mv unanalyzed.txt ../dar_wordlist.csv-unparsed.txt
 echo "Dargwa word list analyzed."
+
+mv -v analyzed.txt analyzed_orig.txt
+python clean_analyzed.py
+
 cd ..
 # rm -rf uniparser-grammar-udm
 cd ..
