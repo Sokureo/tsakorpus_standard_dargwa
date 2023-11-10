@@ -15,7 +15,7 @@
   "meta_files_ext": false,
   "meta_files_dir": false,
   "meta_files_case_sensitive": true,
-  "languages": ["dargwa", "russian"],
+  "languages": ["dargwa", "test", "russian"],
   "language_codes": {"ru": "russian", "dar": "dargwa"},
   "json_indent": 1,
   "gzip": false,

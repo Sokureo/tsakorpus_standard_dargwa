@@ -1,1 +1,2 @@
 corpus_title	Corpus of Standard Dargwa
+langname_test	test

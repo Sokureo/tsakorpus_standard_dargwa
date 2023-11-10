@@ -52,7 +52,7 @@
   "generate_dictionary": true,
   "fulltext_view_enabled": true,
   "use_nonpersistent_fulltext_id": true,
-  "languages": ["dargwa", "russian"],
+  "languages": ["dargwa", "test", "russian"],
   "transliterations": ["cyrillic"],
   "input_methods": ["normal"],
   "interface_languages": [
@@ -65,6 +65,92 @@
   "ambiguous_analyses": true,
   "lang_props":
   {
+    "test":
+    {
+      "gloss_selection": {
+        "columns": [
+          [
+            {"type": "gloss", "value": "PL", "tooltip": "Plural"},
+            {"type": "gloss", "value": "M", "tooltip": "Masculine"},
+            {"type": "gloss", "value": "F", "tooltip": "Feminine"},
+            {"type": "gloss", "value": "N", "tooltip": "Neutral"},
+            {"type": "gloss", "value": "NPL", "tooltip": ""},
+            {"type": "gloss", "value": "HPL", "tooltip": ""},
+            {"type": "gloss", "value": "INF", "tooltip": "Infinitive"},
+            {"type": "gloss", "value": "MSD", "tooltip": "Masdar"},
+            {"type": "gloss", "value": "UNTIL", "tooltip": ""},
+            {"type": "gloss", "value": "IMP", "tooltip": "Imperative"},
+            {"type": "gloss", "value": "IMP.PL", "tooltip": "Plural imperative"}
+          ],
+          [
+            {"type": "gloss", "value": "1SG/1PL/2PL", "tooltip": ""},
+            {"type": "gloss", "value": "2SG", "tooltip": ""},
+            {"type": "gloss", "value": "AOR", "tooltip": "Aorist"},
+            {"type": "gloss", "value": "PRES", "tooltip": "Present"},
+            {"type": "gloss", "value": "HYP1/2", "tooltip": ""},
+            {"type": "gloss", "value": "HYP3", "tooltip": ""},
+            {"type": "gloss", "value": "CAUS", "tooltip": "Causative"},
+            {"type": "gloss", "value": "PRT", "tooltip": ""},
+            {"type": "gloss", "value": "CVB", "tooltip": "Converb"},
+            {"type": "gloss", "value": "COND", "tooltip": ""},
+            {"type": "gloss", "value": "COND.ST", "tooltip": ""},
+            {"type": "gloss", "value": "HAB", "tooltip": ""},
+            {"type": "gloss", "value": "HAB.ST", "tooltip": ""}
+          ],
+          [
+            {"type": "gloss", "value": "TH", "tooltip": ""},
+            {"type": "gloss", "value": "OPT", "tooltip": ""},
+            {"type": "gloss", "value": "COMP", "tooltip": ""},
+            {"type": "gloss", "value": "WHEN", "tooltip": ""},
+            {"type": "gloss", "value": "BY.THE.TIME", "tooltip": ""},
+            {"type": "gloss", "value": "AS.SOON.AS", "tooltip": ""},
+            {"type": "gloss", "value": "CONC", "tooltip": ""},
+            {"type": "gloss", "value": "ALTHOUGH", "tooltip": ""}
+          ],
+          [
+            {"type": "gloss", "value": "1PL", "tooltip": ""},
+            {"type": "gloss", "value": "1SG", "tooltip": ""},
+            {"type": "gloss", "value": "2SG", "tooltip": ""},
+            {"type": "gloss", "value": "2PL", "tooltip": ""}
+          ],
+          [
+            {"type": "gloss", "value": "ADD", "tooltip": ""},
+            {"type": "gloss", "value": "PST", "tooltip": ""},
+            {"type": "gloss", "value": "OBL", "tooltip": ""},
+            {"type": "gloss", "value": "OBL.PL", "tooltip": ""},
+            {"type": "gloss", "value": "ERG", "tooltip": "Ergative case"}
+          ],
+          [
+            {"type": "gloss", "value": "GEN", "tooltip": "Genitive case"},
+            {"type": "gloss", "value": "DAT", "tooltip": "Dative case"},
+            {"type": "gloss", "value": "COMIT", "tooltip": "Comitative case"},
+            {"type": "gloss", "value": "CONT", "tooltip": ""},
+            {"type": "gloss", "value": "INSTR", "tooltip": ""},
+            {"type": "gloss", "value": "SUPER", "tooltip": ""},
+            {"type": "gloss", "value": "INTER", "tooltip": ""},
+            {"type": "gloss", "value": "IN", "tooltip": ""},
+            {"type": "gloss", "value": "SUB", "tooltip": ""},
+            {"type": "gloss", "value": "AD", "tooltip": ""},
+            {"type": "gloss", "value": "LOC", "tooltip": "Locative case"}
+          ],
+          [
+            {"type": "gloss", "value": "EL", "tooltip": "Elative case"},
+            {"type": "gloss", "value": "EL.DOWN", "tooltip": ""},
+            {"type": "gloss", "value": "EL.hither", "tooltip": ""},
+            {"type": "gloss", "value": "EL.thither", "tooltip": ""},
+            {"type": "gloss", "value": "DIR", "tooltip": ""},
+            {"type": "gloss", "value": "1/2PL", "tooltip": ""},
+            {"type": "gloss", "value": "ATTR", "tooltip": "Attributivizer"},
+            {"type": "gloss", "value": "ATTR.PL", "tooltip": "Attributivizer"},
+            {"type": "gloss", "value": "NEG.COP.ATTR", "tooltip": ""}
+          ]
+        ]
+      },
+      "gramm_selection": {
+        "columns": [
+        ]
+      }
+    },
     "dargwa":
     {
       "gramm_shortcuts": {

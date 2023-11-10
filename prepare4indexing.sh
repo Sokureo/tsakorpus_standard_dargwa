@@ -36,6 +36,12 @@ echo "Source conversion ready."
 rm -rf ../corpus/standard_dargwa
 mkdir -p ../corpus/standard_dargwa
 mv corpus/standard_dargwa/json ../corpus/standard_dargwa
+
+cd ../corpus/standard_dargwa/json/dargwa
+sed -i -- 's/"words"/"lang": 0,\n   "words"/g' ./*.json
+cd ../test
+sed -i -- 's/"words"/"lang": 1,\n   "words"/g' ./*.json
+
 # rm -rf corpus/cg
 # rm -rf corpus/cg_disamb
 # rm -rf corpus/json
