@@ -1,4 +1,5 @@
 {
+  "elastic_url": "http://elastic:9200",
   "corpus_name": "standard_dargwa",
   "start_page_url": "http://lingconlab.ru/standard_dargwa/",
   "citation": "",
