@@ -1,1 +1,2 @@
 corpus_title	Корпус литературного даргинского
+langname_disambiguated	снятая омонимия

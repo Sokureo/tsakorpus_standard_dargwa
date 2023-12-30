@@ -824,6 +824,9 @@ msgstr "comments"
 msgid "langname_dargwa"
 msgstr "Dargwa"
 
+msgid "langname_disambiguated"
+msgstr "Disambiguated"
+
 msgid "langname_dogon"
 msgstr "Dogon"
 
@@ -979,9 +982,6 @@ msgstr "Swedish"
 
 msgid "langname_tatar"
 msgstr "Tatar"
-
-msgid "langname_test"
-msgstr "test"
 
 msgid "langname_tsakhur"
 msgstr "Tsakhur"

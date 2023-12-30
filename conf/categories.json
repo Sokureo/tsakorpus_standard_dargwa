@@ -146,7 +146,7 @@
     "comp": "comp",
     "neg.cop.attr": "n_form"
   },
-  "test": {
+  "disambiguated": {
     "PL": "gender",
     "M": "gender",
     "F": "gender",

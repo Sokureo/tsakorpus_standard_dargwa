@@ -833,6 +833,9 @@ msgstr "комментарии"
 msgid "langname_dargwa"
 msgstr "даргинский"
 
+msgid "langname_disambiguated"
+msgstr "снятая омонимия"
+
 msgid "langname_dogon"
 msgstr "догон"
 
